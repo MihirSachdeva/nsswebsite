@@ -1,0 +1,431 @@
+body
+{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'Montserrat';
+  background-color: #f3f3f3;
+
+}
+
+::selection
+{
+  background: rgba(176, 176, 176, 0.3);
+}
+
+html
+{
+  height: 100%;
+}
+
+p
+{
+  margin: 0;
+  padding: 0;
+}
+
+h2
+{
+  margin:0;
+}
+
+img
+{
+  margin: 0;
+}
+
+#title-of-page
+{
+  font-size: 40px;
+  text-decoration: none;
+}
+
+#buffer
+{
+  height: 20px;
+}
+
+.second-container
+{
+  padding-top: 48px;
+}
+
+.float-left
+{
+  float: left;
+}
+
+.float-right
+{
+  float: right;
+}
+
+.head
+{
+  position: relative;
+  width: 100%;
+  height: 70%;
+  top: 48px;
+  background-image: url("/home/mihir/Desktop/mihir/webdev/NSS -  Home Page/iitrblur.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.nss img
+{
+  height: 200px;
+}
+
+.nss
+{
+  position: relative;
+  text-align: center;
+  height: 80%;
+  width: 90%;
+  top: 30px;
+  left: 70px;
+}
+
+.nss td
+{
+  padding: 0;
+}
+
+#gallerywrap
+{
+    width:640px;
+    height:450px;
+    margin:0 auto;
+    margin-right: 0;
+    position:relative;
+    margin-right: 20px;
+}
+
+#gallery
+ {
+    position:relative;
+    left:0;
+    top:0;
+    height:450px;
+    width:640px;
+    overflow:hidden;
+  }
+
+#gallery div {
+    width:640px;
+    height:900px;
+    padding-top:10px;
+    position:relative;
+}
+
+#gallery div img {
+    display:block;
+    margin:0 auto;
+    border:0;
+    height: 30% ;
+    padding-top: 50px;
+}
+
+.previous
+{
+    float:left;
+    margin-left:120px;
+    text-decoration:none;
+    display: inline-block;
+    background-color: #adaaa6;
+    color: #000000;
+}
+
+.next
+{
+    float:right;
+    margin-right:120px;
+    text-decoration:none;
+    display: inline-block;
+    background-color: #adaaa6;
+    color: #000000;
+}
+
+.about-us-wrapper
+{
+  position: relative;
+  background-color: #f3f3f3;
+  color: #666f77;
+  height: auto%;
+  width: 100%;
+  top: 48px;
+}
+
+.about-us
+{
+  text-align: center;
+  position: relative;
+  width:60%;
+  height: auto;
+  margin: 0 auto;
+  top: 10vmin;
+  line-height: 2;
+  font-size: 1rem;
+
+}
+
+.btn
+{
+  background: #052B56;
+  background-image: linear-gradient(to bottom, #052B56, #1E62D0);
+  border-radius: 20px;
+  height: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  font-family: "Montserrat";
+  width: 167px;
+  font-size: 17px;
+  font-weight: 100;
+  padding: 18px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover
+{
+  border: none;
+  background: #1E62D0;
+  background-image: linear-gradient(to bottom,, #1E62D0, #052B56);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer
+{
+  height: 200px;
+  width: 100%;
+  background-color: #ebe6e6;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  color: #575757;
+  font-size: 20px;
+}
+
+.footer a
+{
+  color: #85817d;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+.footer a:hover
+{
+  color: #c9a37d;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 979px)
+{
+  .navbar
+  {
+    display: none;
+  }
+
+  #hide-small
+  {
+    display: none;
+  }
+
+  #center-if-small
+  {
+    width: 70%;
+    position: relative;
+    right: 70px;
+  }
+
+  .navbar_
+  {
+    position: fixed;
+    background-color: rgb(51, 51, 51);
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 48px;
+  }
+
+  .navicon_
+  {
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+  .dropbutton
+  {
+    background-color: rgb(51,51,51);
+    color: #FFFFFF;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    height: 48px;
+    font-family: 'Montserrat',sans-serif;
+  }
+
+  .dropdown
+  {
+    position: fixed;
+    display: inline-block;
+    right: 0;
+    text-align: center;
+  }
+
+  #leftme
+  {
+    position: absolute;
+    left: 0;
+  }
+
+  .dropdown-items
+  {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-items .navicon_                   /*fonts*/
+  {
+    color: #FFFFFF;
+    padding: 12px 16px;
+    padding-left: 0;
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .dropdown-items .navicon_:hover
+  {
+    background-color: #ddd;
+    color: #000000;
+
+  }
+
+  .dropdown .dropbutton .dropdown-item .navicon_:active
+  {
+    background-color: #ddd;
+    color: #000000;
+  }
+
+  .dropdown:hover .dropdown-items
+  {
+    display: block;
+  }
+
+  .dropdown:active .dropdown-items                              /* on touch, for touchscreen devices */
+  {
+    display: block;
+  }
+
+  .dropbutton:hover, .dropdown:hover
+  {
+    background-color: #ddd;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  .navbar_, .dropdown, .navicon_, .dropbutton, .dropdown-items:active          /* on touch, for touchscreen devices */
+  {
+    transition: 0.3s;
+  }
+
+  #red
+  {
+    color:#c23127;
+  }
+
+  #red:hover
+  {
+    background-color: #c23127;
+    color: #000000;
+  }
+
+  #white-if-small
+  {
+    color: #d9d2c1;
+  }
+}
+
+@media (min-width: 979px)
+{
+  .dropdown
+  {
+    display: none;
+  }
+
+  .navbar
+  {
+    position: fixed;
+    background-color: #333;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 48px;
+    z-index: 2;
+  }
+
+  .navbar_
+  {
+    display: none;
+  }
+
+
+  .navicon
+  {
+    text-align: center;
+    display: inline-block;
+    padding: 14px 16px 13.25px 16px;;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+  }
+
+  .navbar .navicon
+  {
+    transition: 0.3s;
+  }
+
+  .navbar .navicon:hover
+  {
+    background: #ddd;
+    color: black;
+  }
+
+  .navbar .navicon:active       /* on touch, for touchscreen devices */
+  {
+    background: #ddd;
+    color: black;
+  }
+
+  #red
+  {
+    color:#c23127;
+  }
+
+  #red:hover
+  {
+    background-color: #c23127;
+    color: black;
+  }
+
+  #nssiitr:hover
+  {
+    background-color: #333;
+    color: white;
+  }
+}
